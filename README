@@ -1,0 +1,44 @@
+						=== wipeX ===
+					version beta 0.5
+
+
+This is a set of web scripts intended to be used for managing the Bukkit Plugin 
+	PermissionsEX (https://github.com/t3hk0d3/PermissionsEx).
+	
+			BE AWARE:
+				This is a beta version of wipeX.
+				Not all tools function 100% properly.
+	
+Features:
+    * 100% more Ajax!
+    * Queued View & Confirm: Set up a list of PEX commands and execute them all at once!
+    * Alerts upon errors: Did you screw something up? No matter, wipeX will alert you to the command that failed with a helpful error message!
+    * Event Logging: Find out who did what to the permissions database, and undo it!
+    * Simple install! Just follow the documented Config section, and move onto your webserver!
+    * Tight Security! Four easy to install security modules to keep unwanted wannabe-hackers out of your permissions:
+        - No-Security - if you've already password protected the directory!
+        - Simple-Security - if you don't need anything fancier!
+        - PHPBB-Standalone Security - Only let certain phpbb groups use wipeX.
+        - PHPBB-Embedded Security - Same as Standalone, but made to be included in a phpbb page. 
+	
+Requirements:
+	I.		Functioning web server with PHP 5.2+.
+	II. 	Minecraft Server with Bukkit and PermissionsEx installed.
+	III.	PermissionsEx configured to use mySQL.
+	
+Installation:
+	I.		Download the files included here.
+	II.		Complete the "Config" section of wipeX_config.php.
+	III.	Upload all files to your webserver.
+	IV.		visit "wipeX.php" in your web browser.
+	
+	
+Known Issues:
+	* Sometimes the queue area turns red upon successful completion of all tasks.
+	* Cannot Undo Remove Group/Create Group events.
+	
+To Do:
+	* Enable undoing of all events
+	* Allow multiple setrank events to be undone simultaneously.
+	* Make the undo system smarter.
+	
