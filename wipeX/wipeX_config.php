@@ -113,7 +113,7 @@ function loadGroups( $mcConn ) {
 function wipeX_Install( $mcConn = false ) {
 	if ( !$mcConn )
 		die();
-	$sql	=	"CREATE TABLE `minecraft-test`.`permissions_wipex` (
+	$sql	=	"CREATE TABLE `permissions_wipex` (
 				 `id` int( 11 ) NOT NULL AUTO_INCREMENT ,
 				 `time` timestamp NOT NULL default CURRENT_TIMESTAMP ,
 				 `user` varchar( 64 ) NOT NULL default 'Unknown',
